@@ -12,9 +12,9 @@ This data generation code is according to https://github.com/yluo42/TAC/tree/mas
 ## Run
 1. For config creation
 ```bash
-python audio_generation.py --task 0 --output-path "/home/ding/Documents/data/test" --config-path "/home/ding/Documents/config" --libri-path="/home/ding/Documents/LibriSpeech" --noise-path="/home/ding/Documents/LibriSpeech/wham_noise"
+python audio_generation.py --task 0 --output-path "/home/ding/Documents/data/16kHz" --config-path "/home/ding/Documents/config" --libri-path="/home/ding/Documents/LibriSpeech" --noise-path="/home/ding/Documents/LibriSpeech/wham_noise"
 ```
 2. For data generation
 ```bash
-python audio_generation.py --task 1 --output-path "/home/ding/Documents/data/test" --config-path "/home/ding/Documents/config" --libri-path="/home/ding/Documents/LibriSpeech" --noise-path="/home/ding/Documents/LibriSpeech/wham_noise"
+python audio_generation.py --task 1 --output-path "/home/ding/Documents/data/16kHz" --config-path "/home/ding/Documents/config" --libri-path="/home/ding/Documents/LibriSpeech" --noise-path="/home/ding/Documents/LibriSpeech/wham_noise"
 ```
