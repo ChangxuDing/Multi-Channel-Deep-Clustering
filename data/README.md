@@ -10,8 +10,11 @@ This data generation code is according to https://github.com/yluo42/TAC/tree/mas
 - [rir-generator](https://github.com/audiolabs/rir-generator) (beacause it can set rt60=0 to create anechoic sound)
 
 ## Run
-1. for config creation
+1. For config creation
+```bash
 python audio_generation.py --task 0 --output-path "/home/ding/Documents/data/test" --config-path "/home/ding/Documents/config" --libri-path="/home/ding/Documents/LibriSpeech" --noise-path="/home/ding/Documents/LibriSpeech/wham_noise"
-
-2. for data generation
+```
+2. For data generation
+```bash
 python audio_generation.py --task 1 --output-path "/home/ding/Documents/data/test" --config-path "/home/ding/Documents/config" --libri-path="/home/ding/Documents/LibriSpeech" --noise-path="/home/ding/Documents/LibriSpeech/wham_noise"
+```
